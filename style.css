@@ -1,0 +1,205 @@
+/* font-family: 'Righteous', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+    font-family:'Righteous', sans-serif ;
+}
+
+:root{
+    --blu: #1566C0;
+}
+
+/* header */
+.btnsize{
+    border: none
+}
+
+.contHeader{
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)  ), url(./media/header.jpg);
+    /* width: 100vw; */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.loremhead{
+    margin-bottom: 350px;
+    margin-left: 20px;
+}
+
+.ondagrey{
+    position:absolute;
+    bottom: 0;
+    left:0;
+}
+
+.ondawhite{
+    position:absolute;
+    bottom: -20px;
+    left:0;
+}
+/* fine header */
+
+/* scritta e titoletto main */
+.mainmargin{
+    margin-top: 20px;
+    
+}
+
+.loremtitolo{
+    
+    color: #1566C0;
+}
+
+.loremtitolo1{
+    
+    color: #1566C0;
+}
+/* fine titoletto main */
+
+/* inizio 4 img lorem */
+.imgsize{
+    
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.margin1{
+    margin-left: 40px;
+}
+
+
+.titoliimg{
+    position: relative;
+    margin-top: 85px;
+    margin-left: 10px;
+    color: white;
+    border-bottom: 2px solid yellow;
+}
+.img1{
+    background-image:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,1)  ), url(./media/1.png);
+    margin-right: 10px ;
+    margin-left: 10px;
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0, 0, 0));
+}
+.img2{
+    background-image:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,1)  ), url(./media/2.png);
+    margin-right: 10px ;
+    margin-left: 10px;
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0, 0, 0));
+}
+.img3{
+    background-image:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,1)  ), url(./media/3.png);
+    margin-right: 10px ;
+    margin-left: 10px;
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0, 0, 0));
+}
+.img4{
+    background-image:  linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,1)  ), url(./media/4.png);
+    margin-right: 10px ;
+    margin-left: 10px;
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0, 0, 0));
+}
+
+.iconcards{
+    margin-top: 80px;
+    margin-left: 12px;
+}
+.titlecards{
+    margin-top:-2px;
+}
+.loremcards{
+    margin-top: 70px;
+    font-size: small;
+}
+/* fine 4 img lorem */
+
+/* inizio article cards */
+.titlearticle1{
+    margin-bottom: 15px;
+    color: var(--blu) ;
+}
+
+.sizearticle1{
+    width: 500px;
+    border-radius: 2px solid;
+    margin-top: 140px;
+    margin-left: 60px;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0, 0, 0));
+}
+
+.icons3{
+    width: 100px;
+    height: 100px ;
+    background-color: black;
+}
+h5{
+    color:var(--blu)
+}
+.sizecard123456{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0, 0, 0));
+    
+}
+.ipsumcard{
+    margin-top: 60px;
+    filter: drop-shadow(1mm 1mm 1mm rgb(0mm, 0mm, 0mm));
+}
+
+article{
+    margin-bottom: 150px;
+}
+/* fine article cards */
+
+/* inizio card asimmetriche */
+
+.card81{
+    box-shadow: 5px 5px 5px grey;
+    width: 180px;
+    height: 150px;
+    font-size: small;
+}
+
+.card82{
+    box-shadow: 5px 5px 5px grey;
+    width: 180px;
+    height: 120px;
+    font-size: small;
+}
+
+.card83{
+    box-shadow: 5px 5px 5px grey;
+    width: 280px;
+    height: 150px;
+    font-size: small;
+}
+
+.card84{
+    box-shadow: 5px 5px 5px grey;
+    width: 250px;
+    height: 120px;
+    font-size: small;
+}
+
+/* fine card asimmetriche */
